@@ -1,0 +1,12 @@
+@import "liftr/bootstrap";
+@import "liftr/semantic-grid";
+
+// Semantic.gs Bootstrap Integration
+.container {
+	width: auto;
+	max-width: 960px;
+    margin: 0 auto;
+	overflow: hidden;
+}
+
+@include lifted("bootstrap-semantic-grid");
